@@ -1,10 +1,11 @@
-# AI Course Factory – Automated
+AI Course & Marketing Factory
 
-## Daily Routine
-1. Run scheduler
-2. Copy generated content
-3. Post manually
-4. Check revenue weekly
+This system generates:
+- Courses
+- Marketing assets
+- Landing pages
+- Documents
 
-## Goal
-Low effort, consistent income using AI-generated courses.
+Designed for solo operation.
+Windows 10 compatible.
+No income guarantees.
