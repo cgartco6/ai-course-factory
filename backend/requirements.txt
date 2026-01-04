@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyttsx3
+sqlite-utils
+pydantic
+requests
