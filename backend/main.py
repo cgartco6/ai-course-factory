@@ -1,9 +1,15 @@
 from fastapi import FastAPI
-from workflows.course_workflow import create_course
+from api.dashboard import router as dashboard_router
+from api.courses import router as courses_router
+from database import init_db
 
-app = FastAPI()
+app = FastAPI(title="AI Course Factory")
 
-@app.post("/create-course")
-def create(topic: str):
-    course = create_course(topic, AGENTS)
-    return {"course": course}
+init_db()
+
+app.include_router(dashboard_router)
+app.include_router(courses_router)
+
+@app.get("/")
+def root():
+    return {"status": "AI Course Factory running"}
