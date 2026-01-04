@@ -1,4 +1,4 @@
 @echo off
-cd backend
 call venv\Scripts\activate
-uvicorn main:app --reload
+python backend\automation\daily_content.py
+pause
