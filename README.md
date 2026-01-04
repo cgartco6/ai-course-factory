@@ -1,8 +1,10 @@
-# AI Course Factory
+# AI Course Factory – Automated
 
-## Run Backend
-- Windows 10 Pro
-- Python 3.10+
+## Daily Routine
+1. Run scheduler
+2. Copy generated content
+3. Post manually
+4. Check revenue weekly
 
-```bat
-run_windows.bat
+## Goal
+Low effort, consistent income using AI-generated courses.
