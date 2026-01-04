@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI for Job Seekers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hero">
+    <h1>AI Skills to Get Hired</h1>
+    <p>Step-by-step AI training for adults looking to improve their career opportunities.</p>
+    <a href="#enroll" class="cta">Start Learning Calmly</a>
+</header>
+
+<section class="benefits">
+    <h2>Course Highlights</h2>
+    <ul>
+        <li>✔ Learn practical AI skills</li>
+        <li>✔ Improve your CV and portfolio</li>
+        <li>✔ Easy step-by-step learning</li>
+    </ul>
+</section>
+
+<section class="pricing" id="enroll">
+    <h2>Pricing</h2>
+    <p class="price">R199 — One-time payment</p>
+    <button onclick="enroll()">Enroll Now</button>
+</section>
+
+<footer>
+    <p>© 2026 Calm AI Learning</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
