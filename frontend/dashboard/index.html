@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Operator Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../landing/css/style.css">
+</head>
+<body>
+<header class="hero">
+<h1>Course & Marketing Dashboard</h1>
+<p>Monitor daily content and weekly reports.</p>
+</header>
+
+<section>
+<h2>Today's Status</h2>
+<ul>
+<li>Generated posters: <span id="poster-count">0</span></li>
+<li>Generated shorts: <span id="shorts-count">0</span></li>
+<li>Generated voices: <span id="voice-count">0</span></li>
+<li>Scheduled posts: <span id="queue-count">0</span></li>
+</ul>
+</section>
+
+<section>
+<h2>Weekly Report</h2>
+<pre id="weekly-report">No report generated yet.</pre>
+</section>
+
+<footer>
+<p>© 2026 Calm AI Learning</p>
+</footer>
+
+<script src="../landing/js/main.js"></script>
+<script>
+    // placeholder values for now
+    document.getElementById('poster-count').textContent = 1;
+    document.getElementById('shorts-count').textContent = 1;
+    document.getElementById('voice-count').textContent = 1;
+    document.getElementById('queue-count').textContent = 0;
+    document.getElementById('weekly-report').textContent = "Weekly report will appear here after running report_generator.py";
+</script>
+</body>
+</html>
